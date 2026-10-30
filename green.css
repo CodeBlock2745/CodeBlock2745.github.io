@@ -1,0 +1,67 @@
+/* Forest / Sage: alternating editorial color fields. */
+:root{--bg:#f7f8f2;--text:#203c30;--muted:#5d7063;--line:#d5dfd1;--forest:#203f32;--sage:#e6eddf;--cream:#fafbf6;--leaf:#789367}
+body{background:var(--bg);color:var(--text)}
+::selection{background:#c9dcb9;color:#183829}
+header{background:#f7f8f2ee;border-color:#d5dfd1}
+.logo{color:#203f32}.logo span{color:#819c70}
+nav a{color:#607460}nav a:hover,nav a.current{color:#274e38}nav a:after{background:#517449}
+.header-cta{border-color:#9aad93;color:#2e5037;background:#edf2e7}
+.header-cta:hover{background:#e0e9d7}
+.primary{background:#294d39;color:#f8fbf2;box-shadow:0 5px 15px #25483310}.primary:hover{background:#3e6346}
+.text-link{border-color:#a7ba99;color:#35563d}
+.hero-copy h1{color:#254b35}.hello{color:#66815b}.hero-intro{color:#395b3c}
+.hero-description{color:#61735e}
+.status-dot{background:#72935a;box-shadow:0 0 0 4px #72935a10}
+.hero-art{border-color:#cbd9c0;background:radial-gradient(ellipse at 50% 38%,#f9fcf3 0%,#e4edd8 58%,#d6e2c9 100%)}
+.hero-portrait img,.hero-portrait>span{border:4px solid #f9fcf4;outline:1px solid #c5d4b9;background:#dfe8d5;box-shadow:0 12px 35px #26443018}
+.hero-portrait>span{color:#3e5e40}
+.scene-top,.scene-bottom{color:#607553}.scene-tabs{background:#f7fbf0cf;border-color:#b8cba9}
+.scene-tabs button{color:#607452}.scene-tabs button.active{background:#35543c;color:#f8fbee}
+.hero-bottom{border-color:#d3dec9;color:#657960}
+.ticker{background:#dce7d1;border-color:#c9d8bc;color:#38513b}.ticker span{color:#789267}
+.color-band{width:100%}
+.band-about{background:#fafbf6;border-bottom:1px solid #e5eadf}
+.band-research{background:#e7eedf;border-bottom:1px solid #d7e1cd}
+.band-projects{background:#f7f8f2}
+.band-journey{background:#fafbf6;border-bottom:1px solid #e7ebe1}
+.band-awards{background:#e6edde}
+.band-connect{background:#294636}
+#research{padding-top:65px}
+.section-kicker{color:#68805d;border-color:#ccd9c3}
+.section-kicker>span:first-child{color:#3c5d3d}
+h2{color:#294d38}h2 em{color:#73885f}
+.about-copy .lead{color:#35503a}.about-copy p{color:#62705d}
+.facts{border-color:#d4dfca}.facts strong{color:#3f5e3f}.facts span,.facts small{color:#6d7f62}
+.research-grid article{border-color:#c9d7bc}.research-grid h3{color:#365439}
+.research-grid span,.research-grid p{color:#607556}.research-note{border-color:#a9bc97;color:#627756}
+.filters button{border-color:#c7d6bb;color:#5c7151}.filters button.active{background:#38573c;border-color:#38573c;color:#f8fbef}
+.project{border-color:#d2ddc8}.project-info h3{color:#2e5037}.project-info>p{color:#64745d}
+.project-meta{color:#748568}.project-link{border-color:#d0ddc5;color:#3a5d3d}
+.tags span{border-color:#cedbc2;background:#eff3e8;color:#607651}
+.morph-visual{background:radial-gradient(ellipse at 50% 40%,#f8fbf2,#e1ebd5);border-color:#cddcbe}
+.geometry-visual{background:#d5e2c8;border-color:#c2d2b3}
+.visual-open{border-color:#b5c9a1;background:#f7faefc9;color:#43603d}.visual-caption{color:#657d54}
+.code-visual{background:#e7edde;border-color:#d1ddc5}.terminal{background:#f9fcf5;border-color:#c0d1b0;box-shadow:0 15px 30px #30482a10}
+.terminal-bar,.terminal-bottom{border-color:#d9e4cf;color:#6c805e}.terminal-bar i{background:#9fb78c}
+.terminal-bar span{color:#7a8c6c}.terminal pre{color:#405638}.code-muted{color:#7a8d6d}.code-purple,.code-green{color:#3e6341}
+.code-scan{background:#a0bb871c;border-left-color:#7e9d65}
+.skills-section{background:#203f32;border-color:#203f32;color:#edf3e7}
+.skills-section h2,.skills-section .skill-row h3{color:#f2f6eb}.skills-section h2 em{color:#c0d2a8}
+.skills-section .section-kicker,.skills-section .section-kicker>span:first-child{color:#bbd0ae;border-color:#4e6957}
+.skills-section .section-heading>p,.skills-section .skill-row p{color:#bdcfba}
+.skills-section .skill-row{border-color:#49634f}.skills-section .skill-number{color:#aac391}
+.skills-section .skill-tags span{color:#e0ead6;border-color:#577053;background:#34503c}
+.timeline{border-color:#b7cba5}.timeline article:before{background:#6f8c59;box-shadow:0 0 0 5px #fafbf6}
+.timeline-date{color:#718c5e}.timeline h3{color:#39573a}.timeline p{color:#648052}.timeline-detail{color:#6d7f62}
+#awards{padding-top:65px}.awards-list,.award{border-color:#c4d3b7}
+.award h3{color:#395c3b}.award-year,.award p{color:#667b59}.award-icon{color:#8ba371}
+.connect{border-top:0;padding-top:65px;padding-bottom:75px}
+.connect h2{color:#f4f6ed}.connect h2 em{color:#bfd2a7}.connect h2>span{color:#b9cd9f}
+.connect .eyebrow,.connect-bottom p{color:#c5d5b9}.connect .status-dot{background:#b6cb9a;box-shadow:none}
+.connect .primary{background:#dbe8c9;color:#28432e;box-shadow:none}.connect .primary:hover{background:#ecf4e0}
+footer{border-color:transparent;color:#4f6847}footer p,footer>a:last-child{color:#6e8063}footer>span{color:#89977c}
+dialog{background:#f8fbf1;color:#314a32;border-color:#b8cba8}dialog::backdrop{background:#1d342755}
+dialog .button{background:#3d603e;color:#f6f9ef}.dialog-close{color:#46613f}
+.motion-toggle{background:#f4f8eeed;border-color:#c0d1b0;color:#5c7350}.scroll-progress{background:#78965e}
+.skip{background:#35583b}
+@media(max-width:750px){nav{background:#f7f8f2;border-color:#d4dfcb}.header-cta{background:#edf3e6}#research,#awards{padding-top:45px}.connect{padding-top:45px;padding-bottom:50px}.research-grid article{border-color:#c6d6b8}}
