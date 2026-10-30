@@ -1,53 +1,56 @@
-# Portfolio — Võ Nguyễn Nguyên Vũ
+# Võ Nguyễn Nguyên Vũ
 
-Theme Forest / Sage: nền kem, xanh sage và xanh rừng xen kẽ.
-Mở index.html để xem trên máy. Không cần npm hoặc build.
+Sinh viên Khoa học Máy tính tại Trường Đại học Công nghệ Thông tin (UIT) – ĐHQG TP.HCM, quan tâm đến Trí tuệ nhân tạo, Thị giác máy tính, hình học 3D và phát triển ứng dụng EdTech.
 
-## Các file website cần có cùng thư mục
-- index.html
-- light.css (bố cục và kiểu chữ)
-- green.css (bảng màu xanh)
-- app.js (menu, dự án, avatar)
-- scene.js (minh họa 3D)
-- ava.jpg (ảnh chân dung)
+## Giới thiệu
 
-Giữ đúng tên chữ thường. Có thể tải thêm README.md; thư mục assets hiện không bắt buộc vì ảnh dùng trực tiếp ava.jpg.
+- Sinh năm 2008.
+- Cựu học sinh chuyên Tin Khóa 25, THPT Chuyên Lê Quý Đôn, Quy Nhơn, Gia Lai.
+- Sinh viên năm nhất ngành Khoa học Máy tính, khóa KHMT2026 tại UIT.
+- Mong muốn kết nối thuật toán, AI và trải nghiệm trực quan để phát triển các ứng dụng công nghệ hữu ích.
 
-## Đưa lên GitHub Pages cá nhân
-1. Đăng nhập https://github.com/ bằng tài khoản của chính bạn.
-2. Bấm avatar góc trên bên phải → Your profile. Ghi lại username trong địa chỉ github.com/USERNAME.
-3. Vào https://github.com/new.
-4. Owner: chọn tài khoản của bạn.
-5. Repository name: USERNAME.github.io. Thay USERNAME bằng đúng username của bạn.
-   Ví dụ minh họa: nếu username là nguyenvu2008 thì tên repo là nguyenvu2008.github.io.
-6. Chọn Public, bật Add a README file, bấm Create repository.
-   Nếu repo USERNAME.github.io đã tồn tại, mở repo đó thay vì tạo mới.
-7. Trong tab Code của repo, chọn Add file → Upload files.
-8. Mở thư mục Portfolio trên máy, chọn 7 file website ở danh sách phía trên và kéo vào trang upload.
-   Phải thấy index.html ngay ở gốc repo. Không tải cả thư mục Portfolio, không tải file ZIP.
-9. Chọn Commit directly to the main branch, bấm Commit changes.
-10. Vào Settings của repo → Pages ở cột trái.
-11. Build and deployment → Source: Deploy from a branch.
-12. Branch: main. Folder: /(root). Bấm Save.
-13. Mở tab Actions và chờ tác vụ pages build and deployment hoàn tất.
-14. Trở lại Settings → Pages, bấm Visit site.
-    Địa chỉ website là https://USERNAME.github.io/.
+## Chuyên môn & công nghệ
 
-Website có thể cần vài phút, tối đa khoảng 10 phút để cập nhật sau khi push.
-Hướng dẫn chính thức: https://docs.github.com/en/pages/quickstart
+- **Lập trình:** Python, C++, JavaScript/TypeScript, SQL, Bash/Shell.
+- **AI & Computer Vision:** PyTorch, Hugging Face Diffusers, OpenCV, MediaPipe.
+- **AI cục bộ:** Ollama, vLLM; cấu hình các mô hình Qwen, DeepSeek, Gemma và Hunyuan3D.
+- **Công cụ & hệ thống:** Git, Git LFS, Docker, Conda/Miniconda, VS Code, Windows và Linux/Ubuntu/WSL.
+- **Robotics:** LEGO Education SPIKE Prime, điều khiển PID, cảm biến màu và tối ưu cơ cấu cơ khí.
+- **Phần cứng:** cấu hình trạm làm việc Linux với hai GPU NVIDIA RTX A4000 cho AI cục bộ và render 3D.
 
-## Cập nhật lần sau
-Vào repo → Add file → Upload files → tải các file đã sửa cùng tên → Commit changes.
-GitHub Pages tự triển khai lại. Nhấn Ctrl+F5 khi cần tải mới giao diện.
-Thay ảnh: tải file ava.jpg mới lên thư mục gốc repo, thay thế file cũ.
+## Dự án nổi bật
 
-## Khi chưa thấy website
-- 404: kiểm tra repo có đúng tên USERNAME.github.io, Pages có main và /(root), và index.html có nằm ở gốc.
-- Mất màu xanh: kiểm tra đã tải green.css và light.css cùng index.html.
-- Mất ảnh: kiểm tra file tên chính xác ava.jpg, cùng thư mục với index.html.
-- Chưa cập nhật: kiểm tra Actions hoàn tất rồi Ctrl+F5.
+### 3DMORPHAI
 
-## Nội dung và minh họa
-3 giải thưởng sắp xếp từ 2023–2024 đến 2025–2026.
-Thẻ 3DMORPHAI có mô hình camera công nghệ 3D minh họa.
-Nút dưới bên phải tạm dừng chuyển động; thiết lập giảm chuyển động của hệ điều hành được tôn trọng.
+Nền tảng và dự án nghiên cứu về tái tạo, biến đổi mô hình 3D từ hình ảnh hoặc bản vẽ 2D đơn góc nhìn. Kết hợp Computer Vision, Deep Learning, thuật toán tạo lưới và xử lý hình học không gian.
+
+### Code Battlefield
+
+Nền tảng đấu trường lập trình trực tuyến với môi trường thực thi code có sandbox, chấm điểm tự động, bảng xếp hạng thời gian thực và giao diện thi đấu tương tác.
+
+### Geometric AI
+
+Định hướng nghiên cứu và phát triển các hệ thống AI cho bài toán hình học không gian, cấu trúc dữ liệu đồ thị, tối ưu xử lý toán học và trực quan hóa trên nền tảng web.
+
+## Hướng nghiên cứu quan tâm
+
+- Tái tạo hình dạng 3D từ ảnh đơn và biến đổi mô hình.
+- Geometric AI, hình học không gian và cấu trúc đồ thị.
+- Phân đoạn ảnh y tế, tìm hiểu các bộ dữ liệu Medical Segmentation Decathlon và LiTS.
+- Ứng dụng AI và công nghệ tương tác trong giáo dục.
+
+## Thành tích
+
+| Năm học | Thành tích |
+| --- | --- |
+| 2023–2024 | Giải Khuyến khích cuộc thi Sáng tạo Thanh thiếu niên, nhi đồng tỉnh Bình Định |
+| 2024–2025 | Giải Nhất cuộc thi Tin học trẻ tỉnh Bình Định |
+| 2025–2026 | Giải Ba cuộc thi Khoa học Kĩ thuật tỉnh Gia Lai |
+
+## Về portfolio
+
+Portfolio giới thiệu học vấn, kỹ năng, dự án, hướng nghiên cứu và thành tích của Võ Nguyễn Nguyên Vũ. Giao diện phối màu kem, xanh sage và xanh rừng, kết hợp các minh họa 3D tương tác theo chủ đề AI và hình học không gian.
+
+## Liên hệ
+
+[Facebook – Võ Nguyễn Nguyên Vũ](https://www.facebook.com/vu.vo.66863/)
